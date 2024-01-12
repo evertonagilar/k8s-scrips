@@ -1,4 +1,8 @@
-# Comandos úteis para kind
+# Cluster Kubernetes Kind
+
+[![Kind Status](https://img.shields.io/badge/Kind-Kubernetes%20-326ce5?style=for-the-badge)](https://kind.sigs.k8s.io/)
+
+
 
 1. Criar um cluster de desenvolvimento
 
@@ -17,7 +21,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ```
 
 
-3. Criar um registry local para armazenar as imagens que serão usadas no cluster
+3. Criar um registry local para armazenar as imagens que serÃ£o usadas no cluster
 
 ```shell
 $ ./cria-registry.sh 
@@ -60,7 +64,7 @@ curl localhost:8080/foo/hostname
 ```
 
 
-5. Subir um container debian para diagnóstico com as ferramentas mais usadas
+5. Subir um container debian para diagnÃ³stico com as ferramentas mais usadas
 
 ```shell
 kubectl run -it debian --image debian
@@ -74,7 +78,7 @@ apt update && apt install iputils-ping iproute2 iputils-ping dnsutils wget curl
 kind get kubeconfig
 ```
 
-7. Reiniciar um deployment no cluster (para forçar um reinício das pods)
+7. Reiniciar um deployment no cluster (para forÃ§ar um reinÃ­cio das pods)
 
 ```shell
 kubectl rollout restart deployment portal-webservice-deploy

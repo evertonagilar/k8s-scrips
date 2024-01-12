@@ -1,0 +1,62 @@
+ Ignorar arquivos de configuração específicos para sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos e diretórios de build
+build/
+bin/
+dist/
+node_modules/
+
+# Ignorar arquivos de ambiente e variáveis específicas
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de dependências geradas pelo package manager
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar diretórios específicos para ferramentas ou ambientes
+.idea/
+.vscode/
+__pycache__/
+.terraform/
+.venv/
+
+# Ignorar arquivos de credenciais e segredos
+*.pem
+*.key
+*.cer
+*.crt
+*.p12
+*.pfx
+
+# Ignorar arquivos temporários e de backup
+*.bak
+*.tmp
+*.swp
+
+# Ignorar arquivos específicos para linguagens de programação
+*.class
+*.pyc
+*.pyo
+*.dll
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+
+# Ignorar arquivos de cache
+.cache/
+
+
+# Ignorar arquivos específicos para servidores e plataformas
+*.pid
+*.seed
+*.pid.lock
+
